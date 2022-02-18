@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="q4.css">
+        <script src="jquery-3.5.1.min.js"></script>
+        <script src="dem1.js"></script>
+    </head>
+    <body>
+        <div>
+            
+        <form id="form1"> 
+        <span id="s1"></span>
+        <div class="container">
+            <div class="content">
+                <!-- <label for="Id">ID:</label>
+                <input type="text" id="tid" placeholder="Enter your id here."><br><br> -->
+
+                <label for="name">NAME:</label>
+                <input type="text" id="tname" placeholder="Enter your name here." name="name"><br><br>
+    
+                <label for="email">EMAIL:</label>
+                <input type="email" id="temail" placeholder="Enter your Email address here" name="email" style="margin: opx;"><br><br>
+
+                <label for="address">AGE:</label>
+                <input type="text" id="tage" placeholder="Enter your address here." name="age"><br><br>
+    
+                <label for="gender">GENDER:</label>
+                <input type="radio" id="rbmale" name="gender" value="male" style="color: lightgreen;">
+                <label for="male" style="margin: 0px;">Male</label>
+                <input type="radio" id="rbfemale" name="gender" value="female" >
+                <label for="female" style="margin: 0px;">Female</label><br><br>
+                
+                <label for="hobbies">HOBBIES:</label>
+                <input type="checkbox" id="chk1" name="hobb1" value="reading">
+                <label for="hobbies" style="margin: 0px;">reading</label>
+                <input type="checkbox" id="chk2" name="hobb1" value="football">    
+                <label for="hobbies" style="margin: 0px;">football</label>
+
+                <br><br><label for="state">STATE:</label>
+                <select name="state" id="tstate">
+                    <option value=""></option>
+                </select><br>
+
+                <br><label for="city">CITY:</label>
+                <select name="city" id="tcity">
+
+                </select><br><br>
+                <button type="button" id="submit1" style="margin-left: 100px;">Submit</button>
+                <button type="button" id="update1">Update</button>
+                <button type="button" id="cancel1">Cancel</button><br><br>
+                <label>SEARCH:</label>
+                <input type="text" id="search1" placeholder="Type here to search"><br><br>
+               
+                <label for="sorting">SORTING:</label>
+                <select name="sort" id="tsort">
+                    <option value="Ascending" id="asc">Ascending</option>
+                    <option value="Descending" id="desc">Descending</option>
+                </select>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="container2"> 
+
+            <table id="tbl1" border="1" solid>
+                <tr style="border: 2px solid;">
+                    <td style="border: 2px solid;">Id:</td>
+                    <td style="border: 2px solid;">Name:</td>
+                    <td style="border: 2px solid;">Age:</td>
+                    <td style="border: 2px solid;">Email:</td>
+                    <td style="border: 2px solid;">Gender:</td>
+                    <td style="border: 2px solid;">Hobby:</td>
+                    <td style="border: 2px solid;">City:</td>
+                    <td style="border: 2px solid;">State:</td>
+                    <td style="border: 2px solid;">Delete:</td>
+                    <td style="border: 2px solid;">Edit:</td>
+                    <td style="border: 2px solid;">Date:</td>
+                </tr>
+
+            <tbody id="tbody">  
+            </tbody>
+            </table>
+        </div>
+    </body>
+</html>

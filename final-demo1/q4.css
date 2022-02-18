@@ -1,0 +1,79 @@
+form
+{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    margin-left: 100px;
+    
+}
+.container2{
+    margin-top: 250px;
+    margin-left: 50px;
+}
+select
+{
+    border: solid aquamarine;
+    border-radius: 5px;
+}
+td{
+    height: 50px;
+    border: solid;
+}
+tr{
+    height: 50px;
+    border: solid;
+}
+label
+{
+    margin-left: 15%;
+}
+.container h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: darkcyan;
+    justify-content: center;
+    margin-left: 40%;
+}
+.content
+{
+    margin-top: 10px;
+    height: 300px;
+    width: 100%;
+    /* border: solid; */
+}
+input[type=text]
+{
+    margin-top: 10px;
+    border: solid aquamarine;
+    border-radius: 5px;
+}
+input[type=email]  
+{
+    border: solid aquamarine;
+    border-radius: 5px; 
+}
+input[type=button]
+{
+    border: solid; 
+    border-radius: 5px; 
+    border: aquamarine;
+}
+input[type=submit]
+{
+    border: solid;
+    border-radius: 5px; 
+}
+select{
+    margin-top: 5px;
+}
+button{
+    border: solid 5px black; 
+    border-radius: 5px; 
+    border: greenyellow;
+    width: 120px;
+    height: 30px;
+    background-color: aquamarine;
+}
